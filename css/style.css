@@ -1,9 +1,103 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background-color: #f9f8f6;
+    text-align: justify;
+    line-height: 1.6;
 }
 
-/* ------------------------------------ */
-/* WRITE YOUR CSS HERE :) */
-/* ------------------------------------ */
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+#main-header{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+#main-header h1{
+    color: #f0f8ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#main-header p{
+    color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #252e35;
+    padding: 5px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 0px 20px;
+
+}
+nav ul li a{
+    color: #9bbedc;
+}
+nav ul li a:hover{
+    color: #3395f0;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 5px;
+    color: #1f2937;
+}
+p{
+    margin-bottom: 10px;
+    color: #252e35;
+}
+.highlight{
+    padding: 10px;
+    border-left: 7px solid #96bcde;
+    background: #f0f8ff;
+    margin-bottom: 10px;
+}
+
+#tools h3{
+    color: #0fc53d;
+}
+.tool-card{
+    background-color: #f9f8f6;
+    padding: 20px;
+    margin-top: 15px;
+    border: 3px solid #252e35;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #4869f9;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #1f2937;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4657a1;
+    border-top: 1px solid #1f2937;
+}
+
+
